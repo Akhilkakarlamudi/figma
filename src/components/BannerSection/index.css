@@ -1,0 +1,92 @@
+.heading {
+  color: antiquewhite;
+  text-align: center;
+  align-content: flex-start;
+  margin-left: 30px;
+}
+.container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-image: url('https://res.cloudinary.com/dojh8gtsi/image/upload/v1679565272/thunderstorm-geeb535a01_1920_hguo39.jpg');
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+  /* align-content: flex-start; */
+  /* flex-wrap: wrap; */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-container {
+  height: 300px;
+  width: 350px;
+  padding-top: 10px;
+  padding-right: 20px;
+  box-shadow: grey;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  border-top: 10px;
+  position: absolute;
+  top: 0;
+  right: -50px;
+  padding-left: 0rem;
+  padding-bottom: 50px;
+  margin-top: 150px;
+  margin-right: 150px;
+
+  background-color: rgba(128, 128, 128, 0.5);
+}
+* {
+  box-sizing: border-box;
+}
+
+.para-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading-weather {
+  font-weight: 300;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e2e0e6;
+  text-align: left;
+  margin-left: 25px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+.degrees-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 400px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.degrees {
+  font-size: 100px;
+  margin: 20px;
+}
+.para-con {
+  margin: 5px;
+}
+.mum {
+  margin-bottom: -15px;
+  font-size: 50px;
+}
